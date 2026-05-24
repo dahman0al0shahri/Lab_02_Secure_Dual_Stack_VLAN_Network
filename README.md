@@ -43,6 +43,30 @@ This lab builds a segmented enterprise-style network using VLANs and inter-VLAN 
 - Native VLAN changed to VLAN 999
 - VLAN 1 disabled where applicable
 
+## Lab Access Credentials
+
+These credentials are included only for educational verification inside the Packet Tracer lab. They are not real production credentials.
+
+| Access Type | Username | Password | Notes |
+|---|---:|---:|---|
+| Console access | N/A | `Console@123` | Used for local console login on R1 and SW1 |
+| Privileged EXEC mode | N/A | `CTE@12345` | Used with the `enable` command |
+| SSH access | `admin` | `Admin@12345` | Used for SSH management access to R1 and SW1 |
+
+### SSH Verification Commands
+
+From MGMT-PC Command Prompt:
+
+```text
+ssh -l admin 172.16.50.113
+ssh -l admin 172.16.50.114
+```
+
+| Device | Management IP | Protocol |
+|---|---:|---|
+| R1 | 172.16.50.113 | SSH |
+| SW1 | 172.16.50.114 | SSH |
+
 ## Verification Summary
 
 The lab was verified with these checks:
@@ -67,6 +91,8 @@ The Packet Tracer file should be uploaded with this name:
 ## Notes
 
 This lab is part of a practical networking portfolio focused on building real troubleshooting, documentation, and network design skills.
+
+The published credentials above are intentionally included to allow reviewers, students, and instructors to verify the lab configuration inside Cisco Packet Tracer.
 
 ## Author
 
