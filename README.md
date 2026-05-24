@@ -2,9 +2,21 @@
 
 A Cisco Packet Tracer lab that demonstrates a secure dual-stack VLAN network using Router-on-a-Stick, IPv4 VLSM, IPv6 routing, DHCPv4, DNS/HTTP services, SSH management, Port Security, and unused port protection.
 
+## Lab Series Navigation
+
+| Previous Lab | Current Lab | Next Lab |
+|---|---|---|
+| [Lab 01 - Basic Routed LAN Connectivity](https://github.com/dahman0al0shahri/Lab_01_Basic_Routed_LAN_Connectivity) | **Lab 02 - Secure Dual-Stack VLAN Network** | Coming soon |
+
 ## Lab Overview
 
 This lab builds a segmented enterprise-style network using VLANs and inter-VLAN routing. The design separates users, staff, services, and management traffic while applying basic Layer 2 and management security controls.
+
+## Connection to Lab 01
+
+Lab 02 builds directly on the routing foundation from Lab 01. Lab 01 verifies basic routed LAN connectivity between separate networks. Lab 02 expands that foundation into VLAN segmentation, 802.1Q trunking, Router-on-a-Stick, IPv4 VLSM, IPv6 dual-stack routing, centralized services, SSH management, and Layer 2 security controls.
+
+Previous lab: [Lab 01 - Basic Routed LAN Connectivity](https://github.com/dahman0al0shahri/Lab_01_Basic_Routed_LAN_Connectivity)
 
 ## Topology
 
